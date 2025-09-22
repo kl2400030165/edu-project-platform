@@ -1,0 +1,52 @@
+.app-header {
+  text-align: center;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.platform-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.platform-subtitle {
+  font-size: 1rem;
+  color: var(--secondary-color);
+  margin-top: 5px;
+  font-style: italic;
+}
+
+.view-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.user-info {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.user-label {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.user-name, .user-name-list {
+  margin: 5px 0 0 0;
+  font-size: 1.1rem;
+  font-weight: bold;
+}

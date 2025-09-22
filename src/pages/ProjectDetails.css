@@ -1,0 +1,28 @@
+.project-details-container {
+  max-width: 800px;
+  margin: 40px auto;
+}
+
+.project-details-container h2 {
+  margin-top: 0;
+  font-size: 1.8rem;
+}
+
+.project-details-container p {
+  margin-bottom: 10px;
+}
+
+.project-details-container b {
+  color: #4a4a4a;
+}
+
+.back-button {
+  background-color: var(--blue-button);
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  display: inline-block;
+  margin-top: 20px;
+  font-weight: bold;
+}
